@@ -24,4 +24,4 @@ pip install fiddler-client
 from langchain_community.callbacks.fiddler_callback import FiddlerCallbackHandler
 ```
 
-See an [example](/LangChain/langchain_docs/integrations/callbacks/fiddler).
+See an [example](/LangChain/docs/integrations/callbacks/fiddler).

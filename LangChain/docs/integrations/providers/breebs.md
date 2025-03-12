@@ -13,4 +13,4 @@
 from langchain.retrievers import BreebsRetriever
 ```
 
-[See a usage example (Retrieval & ConversationalRetrievalChain)](/LangChain/langchain_docs/integrations/retrievers/breebs)
+[See a usage example (Retrieval & ConversationalRetrievalChain)](/LangChain/docs/integrations/retrievers/breebs)

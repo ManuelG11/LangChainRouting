@@ -8,7 +8,7 @@ Vearch Python SDK enables vearch to use locally. Vearch python sdk can be instal
 
 # Vectorstore
 
-Vearch also can used as vectorstore. Most details in [this notebook](/LangChain/langchain_docs/integrations/vectorstores/vearch)
+Vearch also can used as vectorstore. Most details in [this notebook](/LangChain/docs/integrations/vectorstores/vearch)
 
 ```python
 from langchain_community.vectorstores import Vearch

@@ -32,7 +32,7 @@ export BASETEN_API_KEY="paste_your_api_key_here"
 
 ## LLMs
 
-See a [usage example](/LangChain/langchain_docs/integrations/llms/baseten).
+See a [usage example](/LangChain/docs/integrations/llms/baseten).
 
 ```python
 from langchain_community.llms import Baseten

@@ -28,4 +28,4 @@ To import this vectorstore:
 from langchain_community.vectorstores import Marqo
 ```
 
-For a more detailed walkthrough of the Marqo wrapper and some of its unique features, see [this notebook](/LangChain/langchain_docs/integrations/vectorstores/marqo)
+For a more detailed walkthrough of the Marqo wrapper and some of its unique features, see [this notebook](/LangChain/docs/integrations/vectorstores/marqo)

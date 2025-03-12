@@ -33,7 +33,7 @@ There are two ways to authenticate using your Fireworks API key:
     ```
 ## Chat models
 
-See a [usage example](/LangChain/langchain_docs/integrations/chat/fireworks).
+See a [usage example](/LangChain/docs/integrations/chat/fireworks).
 
 ```python
 from langchain_fireworks import ChatFireworks
@@ -41,7 +41,7 @@ from langchain_fireworks import ChatFireworks
 
 ## LLMs
 
-See a [usage example](/LangChain/langchain_docs/integrations/llms/fireworks).
+See a [usage example](/LangChain/docs/integrations/llms/fireworks).
 
 ```python
 from langchain_fireworks import Fireworks 
@@ -49,7 +49,7 @@ from langchain_fireworks import Fireworks
 
 ## Embedding models
 
-See a [usage example](/LangChain/langchain_docs/integrations/text_embedding/fireworks).
+See a [usage example](/LangChain/docs/integrations/text_embedding/fireworks).
 
 ```python
 from langchain_fireworks import FireworksEmbeddings 

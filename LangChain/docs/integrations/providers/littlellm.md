@@ -20,7 +20,7 @@ pip install litellm
 
 ### ChatLiteLLM
 
-See a [usage example](/LangChain/langchain_docs/integrations/chat/litellm).
+See a [usage example](/LangChain/docs/integrations/chat/litellm).
 
 ```python
 from langchain_community.chat_models import ChatLiteLLM
@@ -30,7 +30,7 @@ from langchain_community.chat_models import ChatLiteLLM
 
 You also can use the `ChatLiteLLMRouter` to route requests to different LLMs or LLM providers.
 
-See a [usage example](/LangChain/langchain_docs/integrations/chat/litellm_router).
+See a [usage example](/LangChain/docs/integrations/chat/litellm_router).
 
 ```python
 from langchain_community.chat_models import ChatLiteLLMRouter

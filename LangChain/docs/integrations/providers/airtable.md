@@ -25,4 +25,4 @@ pip install pyairtable
 from langchain_community.document_loaders import AirtableLoader
 ```
 
-See an [example](/LangChain/langchain_docs/integrations/document_loaders/airtable).
+See an [example](/LangChain/docs/integrations/document_loaders/airtable).

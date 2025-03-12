@@ -17,4 +17,4 @@ pip install uptrain
 from langchain_community.callbacks.uptrain_callback import UpTrainCallbackHandler
 ```
 
-See an [example](/LangChain/langchain_docs/integrations/callbacks/uptrain).
+See an [example](/LangChain/docs/integrations/callbacks/uptrain).

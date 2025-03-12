@@ -77,4 +77,4 @@ Currently `StreamlitCallbackHandler` is geared towards use with a LangChain Agen
 use directly with Chains, etc will be added in the future.
 
 You may also be interested in using
-[StreamlitChatMessageHistory](/LangChain/langchain_docs/integrations/memory/streamlit_chat_message_history) for LangChain.
+[StreamlitChatMessageHistory](/LangChain/docs/integrations/memory/streamlit_chat_message_history) for LangChain.

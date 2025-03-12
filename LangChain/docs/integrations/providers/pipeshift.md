@@ -36,7 +36,7 @@ You can perform authentication using your Pipeshift API key in any of the follow
 
 ## Chat models
 
-See an [example](/LangChain/langchain_docs/integrations/chat/pipeshift).
+See an [example](/LangChain/docs/integrations/chat/pipeshift).
 
 ```python
 from langchain_pipeshift import ChatPipeshift
@@ -44,7 +44,7 @@ from langchain_pipeshift import ChatPipeshift
 
 ## LLMs
 
-See an [example](/LangChain/langchain_docs/integrations/llms/pipeshift).
+See an [example](/LangChain/docs/integrations/llms/pipeshift).
 
 ```python
 from langchain_pipeshift import Pipeshift

@@ -15,7 +15,7 @@ pip install xmltodict
 
 ### Retriever
 
-See a [usage example](/LangChain/langchain_docs/integrations/retrievers/pubmed).
+See a [usage example](/LangChain/docs/integrations/retrievers/pubmed).
 
 ```python
 from langchain.retrievers import PubMedRetriever
@@ -23,7 +23,7 @@ from langchain.retrievers import PubMedRetriever
 
 ### Document Loader
 
-See a [usage example](/LangChain/langchain_docs/integrations/document_loaders/pubmed).
+See a [usage example](/LangChain/docs/integrations/document_loaders/pubmed).
 
 ```python
 from langchain_community.document_loaders import PubMedLoader

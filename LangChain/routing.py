@@ -9,15 +9,9 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.runnables import RunnableLambda, RunnablePassthrough
 from langchain_community.vectorstores import FAISS
 from langchain_community.utils.math import cosine_similarity
+from utils.config_setup import export_api_keys
 
-config = configparser.ConfigParser()
-config.read("../config.ini")
-
-if "API" not in config or "TOGETHER_API_KEY" not in config["API"]:
-    raise ValueError("API key not found")
-
-os.environ["TOGETHER_API_KEY"] = config["API"]["TOGETHER_API_KEY"]
-os.environ["TOKENIZERS_PARALLELISM"] = "false"
+export_api_keys()
 
 llm = ChatOpenAI(
     model="meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
@@ -71,22 +65,24 @@ def query_router(inputs: dict) -> str:
         return generate_generic_response(query)
 
 
-chain = (
-        {"query": RunnablePassthrough()}
-        | RunnableLambda(query_router)
-        | llm
-        | StrOutputParser()
-)
+if __name__ == "__main__":
 
-# you can type your queries here
-test_queries = [
-    "Can you write me some python code to develop a chatbot with LangChain?",
-    "Explain me the architecture in Langchain",
-    "How to develop a chat bot",
-    "Capital city of Spain"
-]
+    chain = (
+            {"query": RunnablePassthrough()}
+            | RunnableLambda(query_router)
+            | llm
+            | StrOutputParser()
+    )
 
-for query in test_queries:
-    print(f"-------------------------------------------------------------------------------------\nQuestion: {query}")
-    output = chain.invoke(query)
-    print(f"Answer: {output}\n-------------------------------------------------------------------------------------")
+    # you can type your queries here
+    test_queries = [
+        "Can you write me some python code to develop a chatbot with LangChain?",
+        "Explain me the architecture in Langchain",
+        "How to develop a chat bot",
+        "Capital city of Spain"
+    ]
+
+    for query in test_queries:
+        print(f"-------------------------------------------------------------------------------------\nQuestion: {query}")
+        output = chain.invoke(query)
+        print(f"Answer: {output}\n-------------------------------------------------------------------------------------")

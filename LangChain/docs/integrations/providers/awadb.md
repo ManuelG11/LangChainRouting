@@ -15,7 +15,7 @@ pip install awadb
 from langchain_community.vectorstores import AwaDB
 ```
 
-See a [usage example](/LangChain/langchain_docs/integrations/vectorstores/awadb).
+See a [usage example](/LangChain/docs/integrations/vectorstores/awadb).
 
 
 ## Embedding models
@@ -24,4 +24,4 @@ See a [usage example](/LangChain/langchain_docs/integrations/vectorstores/awadb)
 from langchain_community.embeddings import AwaEmbeddings
 ```
 
-See a [usage example](/LangChain/langchain_docs/integrations/text_embedding/awadb).
+See a [usage example](/LangChain/docs/integrations/text_embedding/awadb).
